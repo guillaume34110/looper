@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="le sound system pour la maison">
+	<meta name="keywords"	 content="haut parleur,enceinte,pavillon,sonorisation,ampli">
+	<meta name="author"      content="gaillard guillaume">
+		
+	<title>magma 974</title>
+	
+	
+	<link media="screen" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="looper.css">
+    <link rel="stylesheet" href="circle.css">
+    
+	
+	
+</head>
+<body>
+    <h1>recAudioLooper</h1>
+    <div class="headBar">
+        <button type="button" class="masterRecord" >Master record</button>
+        <button type="button" class="masterDownLoad" >Master download</button>
+    </div>
+        <div class="allRings">
+            <div class="ring">
+                <div class="percent0  ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number masterLoop">
+                    </div>
+                    <div class = "duration">
+                    </div>
+                    <div class="loopTimer">
+                    Loop timer:    
+                    <input type="number" class = "inputLoop m0" name="volume" size = "3" min="1" max="99" placeholder="5" step ="0.1">
+                    <button type="button" class="inputValid mv0">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                    <button type="button" class="rec b0" >rec</button>
+                    <button type="button" class="play p0" >play</button>
+                    <input type="range" class = "volume v0" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent1 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                    <div class="def">Loop X:</div>     
+                    <input type="number" class = "loopMultiplier m1" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv1">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b1" >rec</button>
+                        <button type="button" class="play p1" >play</button>
+                        <input type="range" class = "volume v1" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent2 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                        <input type="number" class = "loopMultiplier m2" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                        <button type="button" class="multiplierValid mv2">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b2" >rec</button>
+                        <button type="button" class="play p2" >play</button>
+                        <input type="range" class = "volume v2" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent3 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m3" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv3">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b3" >rec</button>
+                        <button type="button" class="play p3" >play</button>
+                        <input type="range" class = "volume v3" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent4 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                        <input type="number" class = "loopMultiplier m4" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                        <button type="button" class="multiplierValid mv4">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b4" >rec</button>
+                        <button type="button" class="play p4" >play</button>
+                        <input type="range" class = "volume v4" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent5 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m5" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv5">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b5" >rec</button>
+                        <button type="button" class="play p5" >play</button>
+                        <input type="range" class = "volume v5" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent6 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m6" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv6">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b6" >rec</button>
+                        <button type="button" class="play p6" >play</button>
+                        <input type="range" class = "volume v6" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent7 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m7" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv7">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b7" >rec</button>
+                        <button type="button" class="play p7" >play</button>
+                        <input type="range" class = "volume v7" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent8 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m8" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv8">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b8" >rec</button>
+                        <button type="button" class="play p8" >play</button>
+                        <input type="range" class = "volume v8" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent9 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m9" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv9">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b9" >rec</button>
+                        <button type="button" class="play p9" >play</button>
+                        <input type="range" class = "volume v9" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent10 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m10" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv10">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b10" >rec</button>
+                        <button type="button" class="play p10" >play</button>
+                        <input type="range" class = "volume v10" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent11 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m11" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv11">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b11" >rec</button>
+                        <button type="button" class="play p11" >play</button>
+                        <input type="range" class = "volume v11" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent12 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m12" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv12">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b12" >rec</button>
+                        <button type="button" class="play p12" >play</button>
+                        <input type="range" class = "volume v12" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent13 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m13" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv13">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b13" >rec</button>
+                        <button type="button" class="play p13" >play</button>
+                        <input type="range" class = "volume v13" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent14 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m14" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv14">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b14" >rec</button>
+                        <button type="button" class="play p14" >play</button>
+                        <input type="range" class = "volume v14" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+            <div class="ring">
+                <div class="percent15 ringStyle">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                     <div class="def">Loop X:</div>  
+                    <input type="number" class = "loopMultiplier m15" name="loopX" size = "3" min="1" max="99" placeholder="1" step ="1">
+                    <button type="button" class="multiplierValid mv15">ok</button>
+                    </div>
+                    <div class = "buttonPos">
+                        <button type="button" class="rec b15" >rec</button>
+                        <button type="button" class="play p15" >play</button>
+                        <input type="range" class = "volume v15" name="volume"  min="0" max="100" value="100" step ="1">
+                    </div>
+                </div>
+            </div>
+        </div>  
+           
+    <script type="text/javascript" src="looper.js"></script>
+    
+</body>
+</html>

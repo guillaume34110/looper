@@ -1,0 +1,67 @@
+.allRings{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+
+}
+.ring {
+   display: flex;
+   width : fit-content;
+   height : fit-content;
+  }
+
+  svg{
+   overflow: visible;
+   height: 160px; 
+   width: 160px;;
+  } 
+  circle { 
+    transform-origin: 70px 70px;
+    transform: rotate(270deg);
+    fill: none;
+    stroke-width: 12;
+    stroke-dasharray: 440;
+    stroke-linecap: round;
+      
+  }
+
+  circle:nth-child(1) {
+      
+    stroke-dashoffset: 0;
+    stroke: #424242;
+  }
+  .ringStyle{
+    stroke:  darkred;
+    height: 250px;
+    width : 180px;
+  }
+  .ringStyle circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 1) / 100);
+  } 
+  .number {  
+    position:relative;
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	  align-content: center;
+    width: fit-content;
+    top : -135px;
+    left: 30px;
+    width: 80px;
+    height: 75px;
+  }
+
+  h2 {
+    font-size: 48px;
+    width: fit-content;
+
+    margin: 0 ;
+    padding: 0 ;
+
+  }
+  
